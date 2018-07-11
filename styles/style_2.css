@@ -1,0 +1,106 @@
+body {
+	font-family: 'Oxygen', 'ubuntu', sans-serif;
+	background-color: #7b9;
+	padding: 15px;
+}
+header{
+	/*display: block;
+	width: 100%;*/
+	position: fixed;
+	float: top;
+	/*background-color: grey;*/
+	top:0;
+	left: 3px;
+	z-index: 10
+}
+header img {
+		/*display: inline;*/
+	/*vertical-align: top;*/
+	float: left;
+	max-height: 35px;
+	border: 2px solid black;
+	margin: 5px ;
+	/*position: fixed;*/
+	/*z-index: 1000;*/
+	float: left;
+}
+
+nav {
+	background-color: white;
+	box-shadow: 0 7px 7px 1px rgba(0,0,0,0.3);
+	text-align: center;
+	width: 100%;
+	/*display: block;*/
+	position: fixed;
+	top: 0;
+	right:0;
+	left: 0;
+	/*float:top;*/
+
+	/*box-shadow: x y size blur color*/
+}
+nav li {
+	list-style: none;
+	display: inline-block;
+
+}
+nav li a{
+	text-decoration: none;
+	color: #444;
+	padding: 15px 20px;
+	display: block;
+}
+nav li:hover{
+	background-color: lightgrey;
+}
+nav ul{
+
+	/*display: block;*/
+	/*float:top;*/
+	display: inline-block;
+	margin: 0px;
+	/*padding: 9px 0;*/
+}
+
+#main {
+	margin-top: 25px;
+	/*border: 2px dotted black;*/
+	display: block;
+	background-color: white;
+	min-height: 100vw;
+	width: 80%;
+	text-align: center;
+	margin:0 auto;
+	padding: 7px;
+	border-radius: 5px;
+
+	/*padding-top: 35px; todo: find an alternative;*/
+	/*box-shadow: 0 0 7px 1px rgba(0,0,0,0.3);*/
+}
+article > img {
+	border: 2px dotted orange;
+	padding: 2px;
+}
+
+.info {
+	border: 2px dashed black;
+	background-color: lightgrey;
+	margin: 7px auto;
+	width: 50%;
+
+}
+.rate > img {
+	width: 7px;
+
+}
+table {
+	margin: 0 auto;
+	background-color: grey;
+	border: 2px dotted;
+	float: top;
+}
+
+table tr, td {
+	padding: 7px;
+	border: 2px dotted ;
+}
