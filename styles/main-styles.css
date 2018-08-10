@@ -1,0 +1,128 @@
+body {
+    font-family: sans-serif;
+/*    font-size: 1.1em;*/
+/*    letter-spacing: 0.1em;*/
+    cursor:default;
+}
+#logo {
+    width: 3em;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+    background: grey;
+}
+@media only screen and (min-width: 700px){
+    #logo {
+        margin: 0;
+        width: 3em;
+        height: auto;
+        float: left;
+        background: grey;
+        
+    }
+}
+h1 {
+    font-family: calibri, san-serif;
+    text-align: center;
+    text-shadow: 1px 1px 5px #434343;
+};
+h2 {
+    color: ;
+    font-family: calibri, san-serif;
+    text-align: center;
+}
+/*            menu begin*/
+#menuitems {
+/*
+    position: sticky;
+    padding: 0.9em;
+    top: 0;
+    background: white;
+*/
+    text-align: center;
+    padding: 0.9em;;
+}
+#menuitems > a {
+    padding: 1.5em;
+    text-decoration: none;
+    color: lightgray;
+    font-size: 0.8em;
+
+}
+#menuitems > a:hover{
+    
+    color: dimgrey;
+    text-shadow: 1px 1px 7px lightgrey;
+    text-decoration: none;
+
+}
+#menuitems > #selected {
+/*    text-decoration: underline;*/
+    color: dimgray;
+    
+}
+
+/*            menu ends*/
+
+
+article {
+    width: 90%;
+    margin: 0 auto;
+}
+@media only screen and (min-width:700px){
+    article {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+}
+section {
+    background: #f7f7f7;
+    padding: 0.2em 0.6em;
+}
+section > img {
+    background: grey;
+    max-width: 50vw;
+    height: auto;
+    display: block;
+    margin: 0.5em auto;
+}
+
+section > section {
+    border: 0.1em solid #e5e5e5;
+    background: #e5e5e5;
+    border-radius: 5px;
+    padding: 5px;
+}
+code {
+    display: block;
+    padding: 2px;
+}
+button {
+    padding: 1em;
+    display:block;
+    margin: 0 auto;
+    color: white;
+    background: radial-gradient(black,grey);
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+button:hover{
+    color: white;
+    background: black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+hr {
+    width: 75%;
+}
+footer {
+    display: block;
+    background-color: grey;
+    padding: 3px;
+    border-radius: 3px;
+    text-align: center;
+    font-family: serif;
+    font-size: 0.9em;
+    color: white;
+}
