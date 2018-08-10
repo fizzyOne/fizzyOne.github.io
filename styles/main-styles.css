@@ -46,7 +46,7 @@ h2 {
     justify-content: center;
 }
 #menuitems > a {
-    padding: 0.9rem;
+    padding: 1em;
     text-decoration: none;
     color: lightgray;
     font-size: 90%;
