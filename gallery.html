@@ -2,22 +2,32 @@
 
 <html>
     <head>
-        <title>Our Services</title>
+        <title>Gallery</title>
+        <link rel="shortcut icon" type="image/png" href="favicon.png">
         <link rel="stylesheet" href="styles/main-styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--
-        <style>
-            ul > li {
-                padding: 3px;
-                font-family: monospace;
-            }
-            article {
-                width: 53em;
-                margin: 0 auto;
-            }
         
+        <style>
+            .photo-grid{
+                background: grey;
+                text-align: center;
+                padding: 1em;
+                border-radius:0.2em;
+            }
+            
+            .photo-grid > img {
+                margin: 1em;
+                width: ; 40vw;
+                height:auto;
+            }
+            @media only screen and (min-width: 700px){
+                .photo-grid > img {
+                    margin: 1em;
+                    width: ; 40px;
+                    height:auto;
+                }
+            }
         </style>
--->
     </head>
     
     <body>
@@ -42,11 +52,27 @@
             
             <p>Here are some of my Photography & Arts...</p>
 
+            <h2>Photo</h2>
+            <div class="photo-grid">
+            
+                <img src="imgs/mytodo.png" alt=""><img src="imgs/mytodo.png" alt="">
+                <img src="imgs/mytodo.png" alt="">
+                <img src="imgs/mytodo.png" alt="">
+                
+            </div>
+            
+            <h2>Graphics</h2>
+            <div class="photo-grid">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
             
         </article>
     
         
         <br>
+        <hr>
 
 		<footer>
 			<p> &copy; fizzyOne 2018</p>

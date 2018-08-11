@@ -6,31 +6,32 @@ body {
 
 }
 #logo {
-    width: 3em;
+    width: 2em;
     height: auto;
     display: block;
-    margin: 1em auto;
+    margin: 0.5em auto;
     background: grey;
+    border-radius: 0.2em;
 }
 @media only screen and (min-width: 700px){
     #logo {
         margin: 0;
-        width: 3em;
+        width: 2em;
         height: auto;
         float: left;
         background: grey;
-        
+        border-radius: 0.3em;
     }
 }
 h1 {
     font-family: calibri, san-serif;
     text-align: center;
     text-shadow: 1px 1px 5px #434343;
-};
+}
 h2 {
-    color: ;
     font-family: calibri, san-serif;
-    text-align: center;
+    text-align: left;
+    text-shadow: 0.8px 0.8px 2px #434343;
 }
 /*            menu begin*/
 #menuitems {
@@ -151,20 +152,11 @@ hr {
     
 }
 */
+
+
 footer {
-    padding: 3px;
-    
-    display: block;   
-/*    width: 100%;*/
-    left: 0;
-    right: 0;
-    bottom:0;
-    height: 3em;
-    background-color: grey;
-    
-    
-    text-align: center;
-    font-family: serif;
-    font-size: 0.9em;
-    color: white;
+    font-size:0.8em;
+    color: grey;
+    padding: 0.8em;
+    margin:0.8em;
 }
